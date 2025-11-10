@@ -13,7 +13,7 @@ console.log(reversed);
 
 //2nd method 
 let str2 = "javscript is powerfull";
-let reverse1 = "";
+let reverse1 = "";                     
 
 for(let i=str2.length-1; i>=0; i--){
     reverse1+=str2[i];
@@ -21,3 +21,13 @@ for(let i=str2.length-1; i>=0; i--){
 console.log("this is same and original:",str2);
 console.log(reverse1);
 
+//condition used to find the number is odd or even
+
+let number1 = prompt("enter your number");
+let num = Number(number1);
+if(num%2==0){
+    console.log("this is even:", num);
+}
+else{
+    console.log("this is odd", num);
+}
