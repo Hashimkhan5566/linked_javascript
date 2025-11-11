@@ -31,3 +31,26 @@ if(num%2==0){
 else{
     console.log("this is odd", num);
 }
+////Print numbers from 1 to 100 but:
+
+// If divisible by 3 print "Fizz"
+
+// If divisible by 5 print "Buzz"
+
+// If divisible by both print "FizzBuzz"
+
+for(i=1; i<=100; i++){
+    if(i%5==0 && i%3==0){
+        console.log(i,"Fizz||buzz");
+    }
+    else if(i%3==0){
+        console.log(i,"Fizz");
+    }
+    else if(i%5==0){
+        console.log(i,"Buzz");
+    }
+    else{
+        console.log(i,"this is not divisible on 5 and 3");
+    }
+   
+    }
